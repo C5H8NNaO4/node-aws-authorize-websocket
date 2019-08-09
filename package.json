@@ -1,0 +1,21 @@
+{
+  "name": "node-aws-authorize-websocket",
+  "version": "0.0.1",
+  "description": "Authorizes websocket connections using a custom authorizer",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "author": "moritz.roessler@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "babel-polyfill": "^6.26.0"
+  },
+  "dependencies": {
+    "node-aws-verify-jwt": "^1.0.3"
+  }
+}
